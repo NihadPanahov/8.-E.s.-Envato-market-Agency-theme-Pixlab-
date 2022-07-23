@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container{
+    width: 88%;
+    margin: auto;
+}
+.clear{
+    clear: both;
+}
+
+
+/* header start */
+.headerheader{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+header li {
+    display: inline-block;
+}
+
+header li a{
+    text-decoration: none;
+    color: #2B3954;
+    padding-left: 20px;
+}
+
+
+header .headerheader .menu ul li a i{
+    color: #2B3954;
+}
+
+/* header end */
+
+/* letstalkus start */
+
+.letstalkus{
+    padding: 100px 0px;
+    background-color: #B4BEBD;
+}
+
+.ltuflx{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ltuflx .right img{
+    width: 550px;
+    height: 450px;
+    border-radius: 800px;
+}
+
+.ltuflx .left{
+    width: 50%;
+}
+
+.ltuflx .left h1{
+    font-size: 65px;
+}
+
+.ltuflx .left p{
+    font-size: 20px;
+    padding: 40px 0px;
+}
+
+.ltuflx .left .btn{
+    background-color: #5956E9;
+    color: white;
+    border: none;
+    padding: 20px 50px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.btn:hover a{
+    background-color: black;
+    transition: 0.5s;
+}
+
+.ltuflx .left .btn a{
+    text-decoration: none;
+    color: white;
+}
+
+/* letstalkus end */
+
+/* cds start */
+
+.cds{
+    display: flex;
+}
+
+.cds .cdsflx .cds-top{
+    text-align: center;
+    padding: 90px 0px;
+}
+
+.cds .cdsflx .cds-top h3{
+    color: #5956E9;
+    font-size: 30px;
+}
+
+.cds .cdsflx .cds-top h1{
+    font-size: 55px;
+    padding: 20px 0px;
+}
+
+.cds .cdsflx .cds-top  p{
+    font-size: 23px;
+    color: #808285;
+}
+
+.cds .cdsflx .cds-bottom{
+    border: 1px;
+    border-color: black;
+    border-radius: 10px;
+    border-style: inset;
+    width: 350px;
+    padding: 50px;
+    margin-left: 370px;
+}
+
+.cds-bottom h2{
+    padding-bottom: 30px;
+}
+
+.cds-bottom img{
+    width: 100px;
+    height: 100px;
+}
+
+.cds-bottom .cdsb1 p{
+    padding: 10px 0px; 
+    font-size: 18px;
+}
+
+
+/*.cds-bottom .cdsb1 a{
+    padding: 50px 0px;
+}*/
+
+/* cds end */
